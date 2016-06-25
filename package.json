@@ -1,0 +1,19 @@
+{
+  "name": "worldvax.date",
+  "version": "0.0.1",
+  "description": "Date arithmetic based on the CDSi Logic Spec recommendations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/worldvax/worldvax.date.git#master"
+  },
+  "keywords": [
+    "date",
+    "vaccine"
+  ],
+  "author": "Dennis Dunn <ansofive@gmail.com> (http://worldvax.org)",
+  "license": "MIT"
+}
