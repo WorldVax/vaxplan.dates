@@ -1,6 +1,6 @@
 module.exports = (function () {
     var CdsiDate = function () {
-        var dt = new Date();
+        var dt = new (Function.prototype.bind.apply(Date, [Date].concat(Array.prototype.slice.call(arguments))));
         dt.setHours(0, 0, 0, 0);
         Object.setPrototypeOf(dt, CdsiDate.prototype);
         return dt;
